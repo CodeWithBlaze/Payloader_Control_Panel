@@ -11,7 +11,7 @@ function upload(){
     const description = getValue('description')
     const url = getValue('url')
 
-    axios.post('http://localhost:3000/api/auth/payload',{
+    axios.post('https://codeloader.herokuapp.com/api/auth/payload',{
         box1:input1,
         box2:input2,
         box3:input3,
