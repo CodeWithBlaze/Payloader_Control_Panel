@@ -1,0 +1,67 @@
+* {
+  font-family: Quicksand;
+  font-weight: 800;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: fit-content;
+  box-sizing: border-box;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("hacker.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: fit-content;
+  min-height: 450px;
+  height: fit-content;
+  padding: 30px;
+  background-color: rgba(26, 35, 50, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container label {
+  color: red;
+  font-size: 35px;
+  box-shadow: 10px 10px 5px black;
+  margin-bottom: 30px;
+}
+.container input {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  background-color: #1a2332;
+  color: #8390c3;
+}
+.container textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
+  background-color: #1a2332;
+  color: #8390c3;
+  resize: none;
+}
+.container button {
+  width: 100%;
+  height: 40px;
+  background-color: #9fef00;
+  border: none;
+  border-radius: 5px;
+}
